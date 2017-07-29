@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_trn_Itinerary" targetNamespace="http://tempuri.org/ds_trn_Itinerary.xsd" xmlns:mstns="http://tempuri.org/ds_trn_Itinerary.xsd" xmlns="http://tempuri.org/ds_trn_Itinerary.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_trn_Itinerary" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="ds_trn_Itinerary" msprop:Generator_UserDSName="ds_trn_Itinerary" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtItinerary" msprop:Generator_UserTableName="dtItinerary" msprop:Generator_RowDeletedName="dtItineraryRowDeleted" msprop:Generator_TableClassName="dtItineraryDataTable" msprop:Generator_RowChangedName="dtItineraryRowChanged" msprop:Generator_RowClassName="dtItineraryRow" msprop:Generator_RowChangingName="dtItineraryRowChanging" msprop:Generator_RowEvArgName="dtItineraryRowChangeEvent" msprop:Generator_RowEvHandlerName="dtItineraryRowChangeEventHandler" msprop:Generator_TablePropName="dtItinerary" msprop:Generator_TableVarName="tabledtItinerary" msprop:Generator_RowDeletingName="dtItineraryRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Date" msprop:Generator_UserColumnName="Date" msprop:Generator_ColumnPropNameInRow="Date" msprop:Generator_ColumnVarNameInTable="columnDate" msprop:Generator_ColumnPropNameInTable="DateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Time" msdata:Caption="DataColumn2DataColumn2DataColumn2" msprop:Generator_UserColumnName="Time" msprop:Generator_ColumnPropNameInRow="Time" msprop:Generator_ColumnVarNameInTable="columnTime" msprop:Generator_ColumnPropNameInTable="TimeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CityFrom" msdata:Caption="DataColumn2DataColumn2DataColumn2" msprop:Generator_UserColumnName="CityFrom" msprop:Generator_ColumnPropNameInRow="CityFrom" msprop:Generator_ColumnVarNameInTable="columnCityFrom" msprop:Generator_ColumnPropNameInTable="CityFromColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CityTo" msdata:Caption="DataColumn2DataColumn2DataColumn2" msprop:Generator_UserColumnName="CityTo" msprop:Generator_ColumnPropNameInRow="CityTo" msprop:Generator_ColumnVarNameInTable="columnCityTo" msprop:Generator_ColumnPropNameInTable="CityToColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DriverID" msdata:Caption="DataColumn2DataColumn2DataColumn2" msprop:Generator_UserColumnName="DriverID" msprop:Generator_ColumnPropNameInRow="DriverID" msprop:Generator_ColumnVarNameInTable="columnDriverID" msprop:Generator_ColumnPropNameInTable="DriverIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DriverName" msdata:Caption="DataColumn2DataColumn2DataColumn2" msprop:Generator_UserColumnName="DriverName" msprop:Generator_ColumnPropNameInRow="DriverName" msprop:Generator_ColumnVarNameInTable="columnDriverName" msprop:Generator_ColumnPropNameInTable="DriverNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="VehicleNo" msdata:Caption="DataColumn2DataColumn2DataColumn2" msprop:Generator_UserColumnName="VehicleNo" msprop:Generator_ColumnPropNameInRow="VehicleNo" msprop:Generator_ColumnVarNameInTable="columnVehicleNo" msprop:Generator_ColumnPropNameInTable="VehicleNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Distance" msdata:Caption="DataColumn2DataColumn2DataColumn2" msprop:Generator_UserColumnName="Distance" msprop:Generator_ColumnPropNameInRow="Distance" msprop:Generator_ColumnVarNameInTable="columnDistance" msprop:Generator_ColumnPropNameInTable="DistanceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TourID" msdata:Caption="DataColumn2DataColumn2DataColumn2" msprop:Generator_UserColumnName="TourID" msprop:Generator_ColumnPropNameInRow="TourID" msprop:Generator_ColumnVarNameInTable="columnTourID" msprop:Generator_ColumnPropNameInTable="TourIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Guest" msdata:Caption="DataColumn2DataColumn2DataColumn2" msprop:Generator_UserColumnName="Guest" msprop:Generator_ColumnPropNameInRow="Guest" msprop:Generator_ColumnVarNameInTable="columnGuest" msprop:Generator_ColumnPropNameInTable="GuestColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AFlightNo" msprop:Generator_UserColumnName="AFlightNo" msprop:Generator_ColumnPropNameInRow="AFlightNo" msprop:Generator_ColumnVarNameInTable="columnAFlightNo" msprop:Generator_ColumnPropNameInTable="AFlightNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AFlightTime" msprop:Generator_UserColumnName="AFlightTime" msprop:Generator_ColumnPropNameInRow="AFlightTime" msprop:Generator_ColumnVarNameInTable="columnAFlightTime" msprop:Generator_ColumnPropNameInTable="AFlightTimeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Country" msprop:Generator_UserColumnName="Country" msprop:Generator_ColumnPropNameInRow="Country" msprop:Generator_ColumnVarNameInTable="columnCountry" msprop:Generator_ColumnPropNameInTable="CountryColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

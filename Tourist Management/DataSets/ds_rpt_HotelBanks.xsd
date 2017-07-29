@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ds_rpt_HotelBanks" targetNamespace="http://tempuri.org/ds_rpt_HotelBanks.xsd" xmlns:mstns="http://tempuri.org/ds_rpt_HotelBanks.xsd" xmlns="http://tempuri.org/ds_rpt_HotelBanks.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ds_rpt_HotelBanks" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ds_rpt_HotelBanks" msprop:Generator_DataSetName="ds_rpt_HotelBanks" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DTBank" msprop:Generator_UserTableName="DTBank" msprop:Generator_RowDeletedName="DTBankRowDeleted" msprop:Generator_RowChangedName="DTBankRowChanged" msprop:Generator_RowClassName="DTBankRow" msprop:Generator_RowChangingName="DTBankRowChanging" msprop:Generator_RowEvArgName="DTBankRowChangeEvent" msprop:Generator_RowEvHandlerName="DTBankRowChangeEventHandler" msprop:Generator_TableClassName="DTBankDataTable" msprop:Generator_TableVarName="tableDTBank" msprop:Generator_RowDeletingName="DTBankRowDeleting" msprop:Generator_TablePropName="DTBank">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="HotelID" msdata:Caption="DataColumn1" msprop:Generator_UserColumnName="HotelID" msprop:Generator_ColumnVarNameInTable="columnHotelID" msprop:Generator_ColumnPropNameInRow="HotelID" msprop:Generator_ColumnPropNameInTable="HotelIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="HotelName" msdata:Caption="DataColumn1" msprop:Generator_UserColumnName="HotelName" msprop:Generator_ColumnVarNameInTable="columnHotelName" msprop:Generator_ColumnPropNameInRow="HotelName" msprop:Generator_ColumnPropNameInTable="HotelNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BankName" msdata:Caption="DataColumn1" msprop:Generator_UserColumnName="BankName" msprop:Generator_ColumnVarNameInTable="columnBankName" msprop:Generator_ColumnPropNameInRow="BankName" msprop:Generator_ColumnPropNameInTable="BankNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="BranchName" msdata:Caption="DataColumn1" msprop:Generator_UserColumnName="BranchName" msprop:Generator_ColumnVarNameInTable="columnBranchName" msprop:Generator_ColumnPropNameInRow="BranchName" msprop:Generator_ColumnPropNameInTable="BranchNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Account" msdata:Caption="DataColumn1" msprop:Generator_UserColumnName="Account" msprop:Generator_ColumnVarNameInTable="columnAccount" msprop:Generator_ColumnPropNameInRow="Account" msprop:Generator_ColumnPropNameInTable="AccountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="AccountNo" msdata:Caption="DataColumn1" msprop:Generator_UserColumnName="AccountNo" msprop:Generator_ColumnVarNameInTable="columnAccountNo" msprop:Generator_ColumnPropNameInRow="AccountNo" msprop:Generator_ColumnPropNameInTable="AccountNoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DisplayName" msprop:Generator_UserColumnName="DisplayName" msprop:Generator_ColumnPropNameInRow="DisplayName" msprop:Generator_ColumnVarNameInTable="columnDisplayName" msprop:Generator_ColumnPropNameInTable="DisplayNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Physical_Address" msprop:Generator_UserColumnName="Physical_Address" msprop:Generator_ColumnPropNameInRow="Physical_Address" msprop:Generator_ColumnVarNameInTable="columnPhysical_Address" msprop:Generator_ColumnPropNameInTable="Physical_AddressColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Telephone" msprop:Generator_UserColumnName="Telephone" msprop:Generator_ColumnPropNameInRow="Telephone" msprop:Generator_ColumnVarNameInTable="columnTelephone" msprop:Generator_ColumnPropNameInTable="TelephoneColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Fax" msprop:Generator_UserColumnName="Fax" msprop:Generator_ColumnPropNameInRow="Fax" msprop:Generator_ColumnVarNameInTable="columnFax" msprop:Generator_ColumnPropNameInTable="FaxColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="E_Mail" msprop:Generator_UserColumnName="E_Mail" msprop:Generator_ColumnPropNameInRow="E_Mail" msprop:Generator_ColumnVarNameInTable="columnE_Mail" msprop:Generator_ColumnPropNameInTable="E_MailColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Web" msprop:Generator_UserColumnName="Web" msprop:Generator_ColumnPropNameInRow="Web" msprop:Generator_ColumnVarNameInTable="columnWeb" msprop:Generator_ColumnPropNameInTable="WebColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Company_Logo" msprop:Generator_UserColumnName="Company_Logo" msprop:Generator_ColumnPropNameInRow="Company_Logo" msprop:Generator_ColumnVarNameInTable="columnCompany_Logo" msprop:Generator_ColumnPropNameInTable="Company_LogoColumn" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="DataColumn1" msprop:Generator_UserColumnName="DataColumn1" msprop:Generator_ColumnPropNameInRow="DataColumn1" msprop:Generator_ColumnVarNameInTable="columnDataColumn1" msprop:Generator_ColumnPropNameInTable="DataColumn1Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,3319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5F4A9C42-ACD8-4898-90CE-23DB37766F25}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tourist_Management</RootNamespace>
+    <AssemblyName>Tourist Management</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ManifestCertificateThumbprint>789AF7BB8470106C2F32A1B2851F2D6A748710C5</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Tourist Management_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <PublishUrl>C:\TM\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>6</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.MSComctlLib, Version=10.0.4504.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\Isuru-pc\dlls\AxInterop.MSComctlLib.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Common, Version=1.0.20031.116, Culture=neutral, PublicKeyToken=e272bb32d11b1948">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\C1.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="C1.Win.C1FlexGrid, Version=2.5.20051.200, Culture=neutral, PublicKeyToken=c9c7ad9c0a5706c9">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\C1.Win.C1FlexGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="C1FlexGroupControl, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\C1FlexGroupControl.dll</HintPath>
+    </Reference>
+    <Reference Include="CRPT, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\CRPT.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="DropSearch, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DropSearch.dll</HintPath>
+    </Reference>
+    <Reference Include="DropSelect, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\DropSelect.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.SqlServer.ConnectionInfo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Management.Sdk.Sfc, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.Smo, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.SqlServer.SmoExtended, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="msmdvbanet, Version=10.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="NavBarDesign, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\Isuru-pc\dlls\NavBarDesign.dll</HintPath>
+    </Reference>
+    <Reference Include="NaviBarCommon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\Isuru-pc\dlls\NaviBarCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="PrintBar, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL" />
+    <Reference Include="SQLCONN, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\SQLCONN\SQLCONN\bin\Debug\SQLCONN.dll</HintPath>
+    </Reference>
+    <Reference Include="StarRatingControl, Version=1.0.4518.16813, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\StarRatingControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Controls.DataVisualization.Toolkit, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.DataVisualization.Toolkit.Design, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.DataVisualization.Toolkit.Expression.Design, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.DataVisualization.Toolkit.VisualStudio.Design, Version=3.5.40128.1, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TimePicker, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\Isuru-pc\dlls\TimePicker.dll</HintPath>
+    </Reference>
+    <Reference Include="ToolBar, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\Isuru-pc\dlls\ToolBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Touchless.Vision, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\Isuru-pc\dlls\Touchless.Vision.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationProvider">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WebCamLib, Version=0.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>\\Isuru-pc\dlls\WebCamLib.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account Reports\frmCreditDebit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account Reports\frmCreditDebit.Designer.cs">
+      <DependentUpon>frmCreditDebit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Account Reports\frmDebtorAgents.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account Reports\frmDebtorAgents.Designer.cs">
+      <DependentUpon>frmDebtorAgents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Account Reports\frmRptPaymentIOU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account Reports\frmRptPaymentIOU.Designer.cs">
+      <DependentUpon>frmRptPaymentIOU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Account Reports\frm_WebController.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account Reports\frm_WebController.Designer.cs">
+      <DependentUpon>frm_WebController.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmAgentPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmAgentPayments.Designer.cs">
+      <DependentUpon>frmAgentPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmCashBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmCashBook.Designer.cs">
+      <DependentUpon>frmCashBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmCashManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmCashManage.Designer.cs">
+      <DependentUpon>frmCashManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmChangePaidVouchers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmChangePaidVouchers.Designer.cs">
+      <DependentUpon>frmChangePaidVouchers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmChartOfAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmChartOfAccount.Designer.cs">
+      <DependentUpon>frmChartOfAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmCreditNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmCreditNote.Designer.cs">
+      <DependentUpon>frmCreditNote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmDebitNote.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmDebitNote.Designer.cs">
+      <DependentUpon>frmDebitNote.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmDriverSettlement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmDriverSettlement.Designer.cs">
+      <DependentUpon>frmDriverSettlement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmEncashMoney.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmEncashMoney.Designer.cs">
+      <DependentUpon>frmEncashMoney.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmGudieSettlement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmGudieSettlement.Designer.cs">
+      <DependentUpon>frmGudieSettlement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmHotelAdvancePay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmHotelAdvancePay.Designer.cs">
+      <DependentUpon>frmHotelAdvancePay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmHotelDailyPay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmHotelDailyPay.Designer.cs">
+      <DependentUpon>frmHotelDailyPay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmHotelMonthlyPay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmHotelMonthlyPay.Designer.cs">
+      <DependentUpon>frmHotelMonthlyPay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmHotelPartialPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmHotelPartialPayments.Designer.cs">
+      <DependentUpon>frmHotelPartialPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmHotelPayConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmHotelPayConfirm.Designer.cs">
+      <DependentUpon>frmHotelPayConfirm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmHotelSettlement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmHotelSettlement.Designer.cs">
+      <DependentUpon>frmHotelSettlement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmJournalEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmJournalEntry.Designer.cs">
+      <DependentUpon>frmJournalEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmLedgerAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmLedgerAccount.Designer.cs">
+      <DependentUpon>frmLedgerAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmLedgerEntry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmLedgerEntry.Designer.cs">
+      <DependentUpon>frmLedgerEntry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmManageCancelledHotels.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmManageCancelledHotels.Designer.cs">
+      <DependentUpon>frmManageCancelledHotels.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmOpeningBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmOpeningBalance.Designer.cs">
+      <DependentUpon>frmOpeningBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmOtherIncome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmOtherIncome.Designer.cs">
+      <DependentUpon>frmOtherIncome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmPaymentIssue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmPaymentIssue.Designer.cs">
+      <DependentUpon>frmPaymentIssue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmPaymentReceive.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmPaymentReceive.Designer.cs">
+      <DependentUpon>frmPaymentReceive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmPayments.Designer.cs">
+      <DependentUpon>frmPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmPaymentsCHQ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmPaymentsCHQ.Designer.cs">
+      <DependentUpon>frmPaymentsCHQ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmPaymentsIOU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmPaymentsIOU.Designer.cs">
+      <DependentUpon>frmPaymentsIOU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmPaymentsREC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmPaymentsREC.Designer.cs">
+      <DependentUpon>frmPaymentsREC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmProfitLose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmProfitLose.Designer.cs">
+      <DependentUpon>frmProfitLose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmReconcilation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmReconcilation.Designer.cs">
+      <DependentUpon>frmReconcilation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmSafariSettlement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmSafariSettlement.Designer.cs">
+      <DependentUpon>frmSafariSettlement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmSetoffSupplementary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmSetoffSupplementary.Designer.cs">
+      <DependentUpon>frmSetoffSupplementary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmSupplementary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmSupplementary.Designer.cs">
+      <DependentUpon>frmSupplementary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmTourInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmTourInvoice.Designer.cs">
+      <DependentUpon>frmTourInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmUnsettled.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmUnsettled.Designer.cs">
+      <DependentUpon>frmUnsettled.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Accounts\frmIOUSettlement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Accounts\frmIOUSettlement.Designer.cs">
+      <DependentUpon>frmIOUSettlement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calender\MonthView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Calender\MonthView.Designer.cs">
+      <DependentUpon>MonthView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calender\MonthViewBoxEventArgs.cs" />
+    <Compile Include="Calender\MonthViewDay.cs" />
+    <Compile Include="Calender\MonthViewMonth.cs" />
+    <Compile Include="Classes\clsConnection.cs" />
+    <Compile Include="Classes\clsForms.cs" />
+    <Compile Include="Classes\clsGlobal.cs" />
+    <Compile Include="Classes\cls_Payments.cs" />
+    <Compile Include="Classes\cls_SendEmail.cs" />
+    <Compile Include="Classes\cls_WebController.cs" />
+    <Compile Include="DataSets\Accounts\ProfiLose.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfiLose.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\acc_LedgerAccount.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>acc_LedgerAccount.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\acc_LedgerAccount_Summary.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>acc_LedgerAccount_Summary.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\dss_acc_GP.cs">
+      <DependentUpon>dss_acc_GP.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\dss_acc_GP.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dss_acc_GP.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_DailyDueHotel.cs">
+      <DependentUpon>ds_acc_DailyDueHotel.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_DailyDueHotel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_DailyDueHotel.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_Debit_Credit.cs">
+      <DependentUpon>ds_acc_Debit_Credit.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_Debit_Credit.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_Debit_Credit.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_DebtorAgent.cs">
+      <DependentUpon>ds_acc_DebtorAgent.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_DebtorAgent.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_DebtorAgent.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_DrvPay.cs">
+      <DependentUpon>ds_acc_DrvPay.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_DrvPay.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_DrvPay.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_IOU1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_IOU.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_MainCash.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_MainCash.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_MonthlyDueHotel.cs">
+      <DependentUpon>ds_acc_MonthlyDueHotel.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_MonthlyDueHotel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_MonthlyDueHotel.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_MonthlyStatement.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_MonthlyStatement.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_PAY.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_PAY.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_PaymentIssued.cs">
+      <DependentUpon>ds_acc_PaymentIssued.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_PaymentIssued.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_PaymentIssued.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_PNL.cs">
+      <DependentUpon>ds_acc_PNL.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_PNL.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_PNL.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_PNL_New.cs">
+      <DependentUpon>ds_acc_PNL_New.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_PNL_New.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_PNL_New.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_SafariPayments.cs">
+      <DependentUpon>ds_acc_SafariPayments.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_SafariPayments.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_SafariPayments.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_SetOff.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_SetOff.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_Supplementary.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_Supplementary.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_TrVoucherDetails.cs">
+      <DependentUpon>ds_acc_TrVoucherDetails.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_TrVoucherDetails.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_TrVoucherDetails.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_UnsettledDrivers.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_UnsettledDrivers.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_UnsettledGuides.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_UnsettledGuides.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_UnsettledHotels.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_UnsettledHotels.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_UnsettledInvoices.cs">
+      <DependentUpon>ds_acc_UnsettledInvoices.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\ds_acc_UnsettledInvoices.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_acc_UnsettledInvoices.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_DriverSettlement.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_DriverSettlement.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_DriverSettlement1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_DriverSettlement1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_rpt_ExpenseSheet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_rpt_ExpenseSheet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_rpt_HotelBanks.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_rpt_HotelBanks.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_rpt_Objectives.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_rpt_Objectives.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_Supplementary.cs">
+      <DependentUpon>ds_Supplementary.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\ds_Supplementary.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Supplementary.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_trn_Expenses.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_trn_Expenses.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_trn_Shopping.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_trn_Shopping.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_trn_TourSummary.cs">
+      <DependentUpon>ds_trn_TourSummary.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\ds_trn_TourSummary.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_trn_TourSummary.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_trn_TourSummary_New.cs">
+      <DependentUpon>ds_trn_TourSummary_New.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\ds_trn_TourSummary_New.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_trn_TourSummary_New.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_trn_TRDetails.cs">
+      <DependentUpon>ds_trn_TRDetails.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\ds_trn_TRDetails.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_trn_TRDetails.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_trn_TRDriverDetails.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_trn_TRDriverDetails.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_Tr_GroupAmend.cs">
+      <DependentUpon>ds_Tr_GroupAmend.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\ds_Tr_GroupAmend.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_Tr_GroupAmend.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ds_TR_REPORT.cs">
+      <DependentUpon>ds_TR_REPORT.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\ds_TR_REPORT.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_TR_REPORT.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\ProfiAndLoss.cs">
+      <DependentUpon>ProfiAndLoss.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataSets\ProfiAndLoss.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfiAndLoss.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\Transport DS\ds_trn_FuelMeter_Selected.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_trn_FuelMeter_Selected.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSets\Transport DS\ds_trn_Itinerary.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ds_trn_Itinerary.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Email\frmAddressBook.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Email\frmAddressBook.Designer.cs">
+      <DependentUpon>frmAddressBook.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Email\frmCCEmails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Email\frmCCEmails.Designer.cs">
+      <DependentUpon>frmCCEmails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Email\frmEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Email\frmEmail.Designer.cs">
+      <DependentUpon>frmEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Email\frmFilterEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Email\frmFilterEmail.Designer.cs">
+      <DependentUpon>frmFilterEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\frmConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmConnect.Designer.cs">
+      <DependentUpon>frmConnect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\frmMDIMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmMDIMain.designer.cs">
+      <DependentUpon>frmMDIMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\frmMDIParent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmMDIParent.designer.cs">
+      <DependentUpon>frmMDIParent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\frmNewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmNewUser.designer.cs">
+      <DependentUpon>frmNewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\frmUserGroups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmUserGroups.designer.cs">
+      <DependentUpon>frmUserGroups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main\frmUserLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main\frmUserLog.Designer.cs">
+      <DependentUpon>frmUserLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmAccountGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmAccountGroup.Designer.cs">
+      <DependentUpon>frmAccountGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmAccountLedger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmAccountLedger.Designer.cs">
+      <DependentUpon>frmAccountLedger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmAgent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmAgent.Designer.cs">
+      <DependentUpon>frmAgent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmAirport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmAirport.Designer.cs">
+      <DependentUpon>frmAirport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmBank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmBank.designer.cs">
+      <DependentUpon>frmBank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmBankBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmBankBranch.designer.cs">
+      <DependentUpon>frmBankBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmBasisTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmBasisTypes.Designer.cs">
+      <DependentUpon>frmBasisTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmBilling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmBilling.Designer.cs">
+      <DependentUpon>frmBilling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmCity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmCity.Designer.cs">
+      <DependentUpon>frmCity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmCityItinerary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmCityItinerary.Designer.cs">
+      <DependentUpon>frmCityItinerary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmCompany.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmCompany.Designer.cs">
+      <DependentUpon>frmCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmCountry.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmCountry.designer.cs">
+      <DependentUpon>frmCountry.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmCurrency.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmCurrency.Designer.cs">
+      <DependentUpon>frmCurrency.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmDefShops.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmDefShops.Designer.cs">
+      <DependentUpon>frmDefShops.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmDriver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmDriver.Designer.cs">
+      <DependentUpon>frmDriver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmEmployee.Designer.cs">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmGuide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmGuide.Designer.cs">
+      <DependentUpon>frmGuide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmHotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmHotel.Designer.cs">
+      <DependentUpon>frmHotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmHotelCondition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmHotelCondition.Designer.cs">
+      <DependentUpon>frmHotelCondition.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmHotelOccupancy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmHotelOccupancy.Designer.cs">
+      <DependentUpon>frmHotelOccupancy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmHotelSeason.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmHotelSeason.Designer.cs">
+      <DependentUpon>frmHotelSeason.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmLanguages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmLanguages.Designer.cs">
+      <DependentUpon>frmLanguages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmLGCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmLGCategory.Designer.cs">
+      <DependentUpon>frmLGCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmLivingGuide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmLivingGuide.Designer.cs">
+      <DependentUpon>frmLivingGuide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmMarket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmMarket.Designer.cs">
+      <DependentUpon>frmMarket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmMarketingDep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmMarketingDep.Designer.cs">
+      <DependentUpon>frmMarketingDep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmOtherIns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmOtherIns.Designer.cs">
+      <DependentUpon>frmOtherIns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmRoomTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmRoomTypes.Designer.cs">
+      <DependentUpon>frmRoomTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmSafariCompanies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmSafariCompanies.Designer.cs">
+      <DependentUpon>frmSafariCompanies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmShop.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmShop.Designer.cs">
+      <DependentUpon>frmShop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmSightSeeing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmSightSeeing.Designer.cs">
+      <DependentUpon>frmSightSeeing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmSightSeeingCat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmSightSeeingCat.Designer.cs">
+      <DependentUpon>frmSightSeeingCat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmSimDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmSimDetails.Designer.cs">
+      <DependentUpon>frmSimDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmTRDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmTRDetails.Designer.cs">
+      <DependentUpon>frmTRDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmVehicle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmVehicle.Designer.cs">
+      <DependentUpon>frmVehicle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmVehicleAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmVehicleAccess.Designer.cs">
+      <DependentUpon>frmVehicleAccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmVehicleBrand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmVehicleBrand.Designer.cs">
+      <DependentUpon>frmVehicleBrand.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmVehicleOwners.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmVehicleOwners.Designer.cs">
+      <DependentUpon>frmVehicleOwners.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmVehicleStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmVehicleStatus.Designer.cs">
+      <DependentUpon>frmVehicleStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Master\frmVehicleType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Master\frmVehicleType.Designer.cs">
+      <DependentUpon>frmVehicleType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OtherFunc\frmTourCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OtherFunc\frmTourCheck.Designer.cs">
+      <DependentUpon>frmTourCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Other\frmCustomizedReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Other\frmCustomizedReports.designer.cs">
+      <DependentUpon>frmCustomizedReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Other\frmFilterRecords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Other\frmFilterRecords.Designer.cs">
+      <DependentUpon>frmFilterRecords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Other\frmFinder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Other\frmFinder.Designer.cs">
+      <DependentUpon>frmFinder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Other\frmFormatPrint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Other\frmFormatPrint.designer.cs">
+      <DependentUpon>frmFormatPrint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Other\frmList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Other\frmList.designer.cs">
+      <DependentUpon>frmList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Other\frmNavigator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Other\frmNavigator.designer.cs">
+      <DependentUpon>frmNavigator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Other\frmSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Other\frmSearch.designer.cs">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Other\frmSearchGrd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Other\frmSearchGrd.designer.cs">
+      <DependentUpon>frmSearchGrd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Other\frmSetPrintArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Other\frmSetPrintArea.designer.cs">
+      <DependentUpon>frmSetPrintArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pre Tour Cost\frmEstimateTour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pre Tour Cost\frmEstimateTour.Designer.cs">
+      <DependentUpon>frmEstimateTour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Account Reports\frmCreditDebit.resx">
+      <DependentUpon>frmCreditDebit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Account Reports\frmDebtorAgents.resx">
+      <DependentUpon>frmDebtorAgents.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Account Reports\frmRptPaymentIOU.resx">
+      <DependentUpon>frmRptPaymentIOU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Account Reports\frm_WebController.resx">
+      <DependentUpon>frm_WebController.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmAgentPayments.resx">
+      <DependentUpon>frmAgentPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmCashBook.resx">
+      <DependentUpon>frmCashBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmCashManage.resx">
+      <DependentUpon>frmCashManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmChangePaidVouchers.resx">
+      <DependentUpon>frmChangePaidVouchers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmChartOfAccount.resx">
+      <DependentUpon>frmChartOfAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmCreditNote.resx">
+      <DependentUpon>frmCreditNote.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmDriverSettlement.resx">
+      <DependentUpon>frmDriverSettlement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmEncashMoney.resx">
+      <DependentUpon>frmEncashMoney.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmGudieSettlement.resx">
+      <DependentUpon>frmGudieSettlement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmHotelAdvancePay.resx">
+      <DependentUpon>frmHotelAdvancePay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmHotelDailyPay.resx">
+      <DependentUpon>frmHotelDailyPay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmHotelMonthlyPay.resx">
+      <DependentUpon>frmHotelMonthlyPay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmHotelPartialPayments.resx">
+      <DependentUpon>frmHotelPartialPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmHotelPayConfirm.resx">
+      <DependentUpon>frmHotelPayConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmHotelSettlement.resx">
+      <DependentUpon>frmHotelSettlement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmIOUSettlement.resx">
+      <DependentUpon>frmIOUSettlement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmJournalEntry.resx">
+      <DependentUpon>frmJournalEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmLedgerAccount.resx">
+      <DependentUpon>frmLedgerAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmLedgerEntry.resx">
+      <DependentUpon>frmLedgerEntry.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmManageCancelledHotels.resx">
+      <DependentUpon>frmManageCancelledHotels.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmOpeningBalance.resx">
+      <DependentUpon>frmOpeningBalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmOtherIncome.resx">
+      <DependentUpon>frmOtherIncome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmPaymentIssue.resx">
+      <DependentUpon>frmPaymentIssue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmPaymentReceive.resx">
+      <DependentUpon>frmPaymentReceive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmPayments.resx">
+      <DependentUpon>frmPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmPaymentsCHQ.resx">
+      <DependentUpon>frmPaymentsCHQ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmPaymentsIOU.resx">
+      <DependentUpon>frmPaymentsIOU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmPaymentsREC.resx">
+      <DependentUpon>frmPaymentsREC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmProfitLose.resx">
+      <DependentUpon>frmProfitLose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmReconcilation.resx">
+      <DependentUpon>frmReconcilation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmSafariSettlement.resx">
+      <DependentUpon>frmSafariSettlement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmSupplementary.resx">
+      <DependentUpon>frmSupplementary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmTourInvoice.resx">
+      <DependentUpon>frmTourInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Accounts\frmUnsettled.resx">
+      <DependentUpon>frmUnsettled.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email\frmAddressBook.resx">
+      <DependentUpon>frmAddressBook.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email\frmCCEmails.resx">
+      <DependentUpon>frmCCEmails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email\frmEmail.resx">
+      <DependentUpon>frmEmail.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Email\frmFilterEmail.resx">
+      <DependentUpon>frmFilterEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmConnect.resx">
+      <DependentUpon>frmConnect.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmMDIMain.resx">
+      <DependentUpon>frmMDIMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmMDIParent.resx">
+      <DependentUpon>frmMDIParent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmNewUser.resx">
+      <DependentUpon>frmNewUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmUserGroups.resx">
+      <DependentUpon>frmUserGroups.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main\frmUserLog.resx">
+      <DependentUpon>frmUserLog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmAccountGroup.resx">
+      <DependentUpon>frmAccountGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmAccountLedger.resx">
+      <DependentUpon>frmAccountLedger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmAgent.resx">
+      <DependentUpon>frmAgent.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmAirport.resx">
+      <DependentUpon>frmAirport.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmBank.resx">
+      <DependentUpon>frmBank.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmBankBranch.resx">
+      <DependentUpon>frmBankBranch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmBasisTypes.resx">
+      <DependentUpon>frmBasisTypes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmBilling.resx">
+      <DependentUpon>frmBilling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmCity.resx">
+      <DependentUpon>frmCity.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmCityItinerary.resx">
+      <DependentUpon>frmCityItinerary.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmCompany.resx">
+      <DependentUpon>frmCompany.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmCountry.resx">
+      <DependentUpon>frmCountry.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmCurrency.resx">
+      <DependentUpon>frmCurrency.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmDefShops.resx">
+      <DependentUpon>frmDefShops.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmDriver.resx">
+      <DependentUpon>frmDriver.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmEmployee.resx">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmGuide.resx">
+      <DependentUpon>frmGuide.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmHotel.resx">
+      <DependentUpon>frmHotel.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmHotelCondition.resx">
+      <DependentUpon>frmHotelCondition.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmHotelOccupancy.resx">
+      <DependentUpon>frmHotelOccupancy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmHotelSeason.resx">
+      <DependentUpon>frmHotelSeason.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmLanguages.resx">
+      <DependentUpon>frmLanguages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmMarket.resx">
+      <DependentUpon>frmMarket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmMarketingDep.resx">
+      <DependentUpon>frmMarketingDep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmOtherIns.resx">
+      <DependentUpon>frmOtherIns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmRoomTypes.resx">
+      <DependentUpon>frmRoomTypes.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmSafariCompanies.resx">
+      <DependentUpon>frmSafariCompanies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmShop.resx">
+      <DependentUpon>frmShop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmSightSeeing.resx">
+      <DependentUpon>frmSightSeeing.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmSightSeeingCat.resx">
+      <DependentUpon>frmSightSeeingCat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmSimDetails.resx">
+      <DependentUpon>frmSimDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmTRDetails.resx">
+      <DependentUpon>frmTRDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmVehicle.resx">
+      <DependentUpon>frmVehicle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmVehicleAccess.resx">
+      <DependentUpon>frmVehicleAccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmVehicleBrand.resx">
+      <DependentUpon>frmVehicleBrand.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmVehicleOwners.resx">
+      <DependentUpon>frmVehicleOwners.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmVehicleStatus.resx">
+      <DependentUpon>frmVehicleStatus.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Master\frmVehicleType.resx">
+      <DependentUpon>frmVehicleType.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OtherFunc\frmTourCheck.resx">
+      <DependentUpon>frmTourCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Other\frmCustomizedReports.resx">
+      <DependentUpon>frmCustomizedReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Other\frmFilterRecords.resx">
+      <DependentUpon>frmFilterRecords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Other\frmFinder.resx">
+      <DependentUpon>frmFinder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Other\frmFormatPrint.resx">
+      <DependentUpon>frmFormatPrint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Other\frmList.resx">
+      <DependentUpon>frmList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Other\frmNavigator.resx">
+      <DependentUpon>frmNavigator.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Other\frmSearch.resx">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Other\frmSearchGrd.resx">
+      <DependentUpon>frmSearchGrd.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Other\frmSetPrintArea.resx">
+      <DependentUpon>frmSetPrintArea.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pre Tour Cost\frmEstimateTour.resx">
+      <DependentUpon>frmEstimateTour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmOperationPerformance.resx">
+      <DependentUpon>frmOperationPerformance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\HotelDailyPayments_WO_Cmpny.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>HotelDailyPayments_WO_Cmpny.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\HotelMonthlyPayments_WO_Cmpny.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>HotelMonthlyPayments_WO_Cmpny.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\HotelMonthlyPayments_WO_signature_WO_Cmpny.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>HotelMonthlyPayments_WO_signature_WO_Cmpny.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PNL_MonthlyStatement_WO_Cmpny.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PNL_MonthlyStatement_WO_Cmpny.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_acc_MainCash.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_acc_MainCash.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_acc_SetOFF.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_acc_SetOFF1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_act_UnsettledDrivers_WO_Cmpny.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_act_UnsettledDrivers_WO_Cmpny.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_act_UnsettledGuides_WO_Cmpny.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_act_UnsettledGuides_WO_Cmpny.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_act_UnsettledHotels_WO_Cmpny.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_act_UnsettledHotels_WO_Cmpny.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_LedgerAccount.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_LedgerAccount.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_LedgerSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_LedgerSummary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_Objectives_All.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Objectives_All.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PaymentIssueAgent_Detailed.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PaymentIssueAgent_Detailed.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CreditNote.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CreditNote.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DebitNote.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DebitNote.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DebterAgent.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DebterAgent.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DebterAgentAW.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DebterAgentAW.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmCheckCancellation.resx">
+      <DependentUpon>frmCheckCancellation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmFuelMeter.resx">
+      <DependentUpon>frmFuelMeter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmGeneralReports.resx">
+      <DependentUpon>frmGeneralReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmGroupTourDetails.resx">
+      <DependentUpon>frmGroupTourDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmObjectives.resx">
+      <DependentUpon>frmObjectives.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmReportCategory.resx">
+      <DependentUpon>frmReportCategory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmReportType.resx">
+      <DependentUpon>frmReportType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmReportViewer.resx">
+      <DependentUpon>frmReportViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmSetReportCategory.resx">
+      <DependentUpon>frmSetReportCategory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\frmTransDetails.resx">
+      <DependentUpon>frmTransDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\GroupingTour.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>GroupingTour.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\HotelAdvancePay.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>HotelAdvancePay.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\HotelBankDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>HotelBankDetails.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\HotelDailyPayments.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>HotelDailyPayments.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\HotelDailyPayments_1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>HotelDailyPayments_1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\HotelDuePayments.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>HotelDuePayments1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\HotelMonthlyPayments.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>HotelMonthlyPayments.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\HotelMonthlyPayments_WO_signature.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>HotelMonthlyPayments_WO_signature.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\Itinerary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Itinerary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\NewInvoice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>NewInvoice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PaymentIssueAgent.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PaymentIssueAgent.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PNL_MonthlyStatement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PNL_MonthlyStatement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\ProfitNloss.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ProfitNloss.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_acc_PNL.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_acc_PNL.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_acc_Supplementary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_acc_Supplementary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_acc_SupplementaryInvoice.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_acc_SupplementaryInvoice.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_act_UnsettledDrivers.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_act_UnsettledDrivers.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_act_UnsettledGuides.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_act_UnsettledGuides.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_act_UnsettledHotels.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_act_UnsettledHotels.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_act_UnsettledInvoices.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_act_UnsettledInvoices.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_act_UnsettledInvoices_WO_Cmpny.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_act_UnsettledInvoices_WO_Cmpny.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_Objectives.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Objectives.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_trn_Expenses.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_trn_Expenses.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_trn_FuelMeter_All.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_trn_FuelMeter_All.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rpt_trn_FuelMeter_Selected.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_trn_FuelMeter_Selected.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SafariPayments.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SafariPayments.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SafariPayments_WO_Cmpny.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SafariPayments_WO_Cmpny.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SetOff.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SetOff.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\TRDriverDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TRDriverDetails.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\TrVoucherDetails.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TrVoucherDetails.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmBackgroundProperties.resx">
+      <DependentUpon>frmBackgroundProperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmBackup.resx">
+      <DependentUpon>frmBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmCancellation.resx">
+      <DependentUpon>frmCancellation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmChangePswd.resx">
+      <DependentUpon>frmChangePswd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmBKRES.resx">
+      <DependentUpon>frmBKRES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmChangeTypes.resx">
+      <DependentUpon>frmChangeTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmFilterDrvGuide.resx">
+      <DependentUpon>frmFilterDrvGuide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmLock.resx">
+      <DependentUpon>frmLock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmOtherSettings.resx">
+      <DependentUpon>frmOtherSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmReminder.resx">
+      <DependentUpon>frmReminder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings\frmTransReportSettings.resx">
+      <DependentUpon>frmTransReportSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransacReports\BookingHotel.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BookingHotel2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransacReports\ExpenseSheet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ExpenseSheet1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransacReports\IOU_Settlement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>IOU_Settlement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransacReports\rpt_CashPaymentVoucher_1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_CashPaymentVoucher_1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransacReports\rpt_ChequeVoucher.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_ChequeVoucher.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransacReports\rpt_GuideSettlement_new.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_GuideSettlement_new.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransacReports\rpt_Receipt.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_Receipt.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransacReports\rpt_TourSummary_new.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_TourSummary_new.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransacReports\TR_DriverSettlement1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TR_DriverSettlement1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransacReports\rpt_GuideSettlement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_GuideSettlement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransacReports\TR_DriverSettlement.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TR_DriverSettlement.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransacReports\frmReportViewer.resx">
+      <DependentUpon>frmReportViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransacReports\GroupAmend.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>GroupAmend.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransacReports\rpt_trn_TourSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rpt_trn_TourSummary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransacReports\ShoppingVoucher.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ShoppingVoucher.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransacReports\Transportation.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Transportation.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TransacReports\TR_Details.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TR_Details.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmBillingIns.resx">
+      <DependentUpon>frmBillingIns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmChangeRooms.resx">
+      <DependentUpon>frmChangeRooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmCosting.resx">
+      <DependentUpon>frmCosting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmDefaultExpences.resx">
+      <DependentUpon>frmDefaultExpences.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmExpenses.resx">
+      <DependentUpon>frmExpenses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmHotel.resx">
+      <DependentUpon>frmHotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmIndividualAmend.resx">
+      <DependentUpon>frmIndividualAmend.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmGroupAmend.resx">
+      <DependentUpon>frmGroupAmend.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmOther.resx">
+      <DependentUpon>frmOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmOtherIns.resx">
+      <DependentUpon>frmOtherIns.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmScratchCards.resx">
+      <DependentUpon>frmScratchCards.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmSearchDriver.resx">
+      <DependentUpon>frmSearchDriver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmSightSeeing.resx">
+      <DependentUpon>frmSightSeeing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmTourIDGenerator.resx">
+      <DependentUpon>frmTourIDGenerator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmTransport.resx">
+      <DependentUpon>frmTransport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmTravel.resx">
+      <DependentUpon>frmTravel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmVoucherManage.resx">
+      <DependentUpon>frmVoucherManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transaction\frmVoucherType.resx">
+      <DependentUpon>frmVoucherType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transport Report\frmItinerary.resx">
+      <DependentUpon>frmItinerary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\frmChangeVoucher.resx">
+      <DependentUpon>frmChangeVoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\frmInstructionLoader.resx">
+      <DependentUpon>frmInstructionLoader.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\ucFilterByCompany.resx">
+      <DependentUpon>ucFilterByCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\ucFilterByDate.resx">
+      <DependentUpon>ucFilterByDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\ucFilterByOther.resx">
+      <DependentUpon>ucFilterByOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\ucHotelNavigation.resx">
+      <DependentUpon>ucHotelNavigation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\ucNavComponents.resx">
+      <DependentUpon>ucNavComponents.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\ucPayments.resx">
+      <DependentUpon>ucPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\ucPaymentsReport.resx">
+      <DependentUpon>ucPaymentsReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\ucReportViewer.resx">
+      <DependentUpon>ucReportViewer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\ucSSNavigation.resx">
+      <DependentUpon>ucSSNavigation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\ucTransEmail.resx">
+      <DependentUpon>ucTransEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User_Controls\ucTransOther.resx">
+      <DependentUpon>ucTransOther.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Reports\frmOperationPerformance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmOperationPerformance.Designer.cs">
+      <DependentUpon>frmOperationPerformance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\HotelDailyPayments_WO_Cmpny.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HotelDailyPayments_WO_Cmpny.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\HotelMonthlyPayments_WO_Cmpny.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HotelMonthlyPayments_WO_Cmpny.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\HotelMonthlyPayments_WO_signature_WO_Cmpny.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HotelMonthlyPayments_WO_signature_WO_Cmpny.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PNL_MonthlyStatement_WO_Cmpny.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PNL_MonthlyStatement_WO_Cmpny.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_acc_MainCash.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_acc_MainCash.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_acc_SetOFF1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_acc_SetOFF.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_act_UnsettledDrivers_WO_Cmpny.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_act_UnsettledDrivers_WO_Cmpny.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_act_UnsettledGuides_WO_Cmpny.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_act_UnsettledGuides_WO_Cmpny.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_act_UnsettledHotels_WO_Cmpny.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_act_UnsettledHotels_WO_Cmpny.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_LedgerAccount.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_LedgerAccount.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_LedgerSummary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_LedgerSummary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_Objectives_All.cs">
+      <DependentUpon>rpt_Objectives_All.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\PaymentIssueAgent_Detailed.cs">
+      <DependentUpon>PaymentIssueAgent_Detailed.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\CreditNote.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CreditNote.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\DebitNote.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DebitNote.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\DebterAgent.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DebterAgent.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\DebterAgentAW.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DebterAgentAW.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\frmCheckCancellation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmCheckCancellation.designer.cs">
+      <DependentUpon>frmCheckCancellation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmFuelMeter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmFuelMeter.Designer.cs">
+      <DependentUpon>frmFuelMeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmGeneralReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmGeneralReports.designer.cs">
+      <DependentUpon>frmGeneralReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmGroupTourDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmGroupTourDetails.Designer.cs">
+      <DependentUpon>frmGroupTourDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmObjectives.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmObjectives.Designer.cs">
+      <DependentUpon>frmObjectives.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmReportCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmReportCategory.designer.cs">
+      <DependentUpon>frmReportCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmReportType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmReportType.Designer.cs">
+      <DependentUpon>frmReportType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmReportViewer.designer.cs">
+      <DependentUpon>frmReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmSetReportCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmSetReportCategory.designer.cs">
+      <DependentUpon>frmSetReportCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\frmTransDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reports\frmTransDetails.Designer.cs">
+      <DependentUpon>frmTransDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\GroupingTour.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GroupingTour.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\HotelAdvancePay.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HotelAdvancePay.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\HotelBankDetails.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HotelBankDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\HotelDailyPayments.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HotelDailyPayments.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\HotelDailyPayments_1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HotelDailyPayments_1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\HotelDuePayments1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HotelDuePayments.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\HotelMonthlyPayments.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HotelMonthlyPayments.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\HotelMonthlyPayments_WO_signature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HotelMonthlyPayments_WO_signature.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\Itinerary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Itinerary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\NewInvoice.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>NewInvoice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PaymentIssueAgent.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PaymentIssueAgent.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PNL_MonthlyStatement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PNL_MonthlyStatement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\ProfitNloss.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfitNloss.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_acc_PNL.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_acc_PNL.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_acc_Supplementary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_acc_Supplementary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_acc_SupplementaryInvoice.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_acc_SupplementaryInvoice.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_act_UnsettledDrivers.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_act_UnsettledDrivers.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_act_UnsettledGuides.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_act_UnsettledGuides.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_act_UnsettledHotels.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_act_UnsettledHotels.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_act_UnsettledInvoices.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_act_UnsettledInvoices.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_act_UnsettledInvoices_WO_Cmpny.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_act_UnsettledInvoices_WO_Cmpny.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_Objectives.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_Objectives.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_trn_Expenses.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_trn_Expenses.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_trn_FuelMeter_All.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_trn_FuelMeter_All.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\rpt_trn_FuelMeter_Selected.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_trn_FuelMeter_Selected.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\SafariPayments.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SafariPayments.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\SafariPayments_WO_Cmpny.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SafariPayments_WO_Cmpny.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\SetOff.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SetOff.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\TRDriverDetails.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TRDriverDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\TrVoucherDetails.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TrVoucherDetails.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Settings\frmBackgroundProperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmBackgroundProperties.Designer.cs">
+      <DependentUpon>frmBackgroundProperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmBackup.Designer.cs">
+      <DependentUpon>frmBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmCancellation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmCancellation.designer.cs">
+      <DependentUpon>frmCancellation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmChangePswd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmChangePswd.Designer.cs">
+      <DependentUpon>frmChangePswd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmBKRES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmBKRES.designer.cs">
+      <DependentUpon>frmBKRES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmChangeTypes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmChangeTypes.Designer.cs">
+      <DependentUpon>frmChangeTypes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmFilterDrvGuide.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmFilterDrvGuide.designer.cs">
+      <DependentUpon>frmFilterDrvGuide.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmLock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmLock.Designer.cs">
+      <DependentUpon>frmLock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmOtherSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmOtherSettings.Designer.cs">
+      <DependentUpon>frmOtherSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmReminder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmReminder.Designer.cs">
+      <DependentUpon>frmReminder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Settings\frmTransReportSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Settings\frmTransReportSettings.Designer.cs">
+      <DependentUpon>frmTransReportSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransacReports\BookingHotel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookingHotel.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="TransacReports\BookingHotel1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookingHotel.rpt</DependentUpon>
+    </Compile>
+    <Compile Include="TransacReports\BookingHotel2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BookingHotel.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TransacReports\ExpenseSheet1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExpenseSheet.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TransacReports\IOU_Settlement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>IOU_Settlement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TransacReports\rpt_CashPaymentVoucher_1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_CashPaymentVoucher_1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TransacReports\rpt_ChequeVoucher.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_ChequeVoucher.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TransacReports\rpt_GuideSettlement_new.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_GuideSettlement_new.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TransacReports\rpt_Receipt.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_Receipt.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TransacReports\rpt_TourSummary_new.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_TourSummary_new.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TransacReports\TR_DriverSettlement1.cs">
+      <DependentUpon>TR_DriverSettlement1.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="TransacReports\rpt_GuideSettlement.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_GuideSettlement.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TransacReports\TR_DriverSettlement.cs">
+      <DependentUpon>TR_DriverSettlement.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="TransacReports\frmReportViewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TransacReports\frmReportViewer.Designer.cs">
+      <DependentUpon>frmReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TransacReports\GroupAmend.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>GroupAmend.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TransacReports\rpt_trn_TourSummary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rpt_trn_TourSummary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TransacReports\ShoppingVoucher.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ShoppingVoucher.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TransacReports\Transportation.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Transportation.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="TransacReports\TR_Details.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TR_Details.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmBillingIns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmBillingIns.Designer.cs">
+      <DependentUpon>frmBillingIns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmChangeRooms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmChangeRooms.Designer.cs">
+      <DependentUpon>frmChangeRooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmCosting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmCosting.Designer.cs">
+      <DependentUpon>frmCosting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmDefaultExpences.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmDefaultExpences.Designer.cs">
+      <DependentUpon>frmDefaultExpences.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmExpenses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmExpenses.Designer.cs">
+      <DependentUpon>frmExpenses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmTourIDGenerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmTourIDGenerator.Designer.cs">
+      <DependentUpon>frmTourIDGenerator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmHotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmHotel.Designer.cs">
+      <DependentUpon>frmHotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmIndividualAmend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmIndividualAmend.Designer.cs">
+      <DependentUpon>frmIndividualAmend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmGroupAmend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmGroupAmend.designer.cs">
+      <DependentUpon>frmGroupAmend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmOther.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmOther.Designer.cs">
+      <DependentUpon>frmOther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmOtherIns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmOtherIns.Designer.cs">
+      <DependentUpon>frmOtherIns.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmScratchCards.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmScratchCards.Designer.cs">
+      <DependentUpon>frmScratchCards.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmSearchDriver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmSearchDriver.Designer.cs">
+      <DependentUpon>frmSearchDriver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmSightSeeing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmSightSeeing.Designer.cs">
+      <DependentUpon>frmSightSeeing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmTransport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmTransport.Designer.cs">
+      <DependentUpon>frmTransport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmTravel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmTravel.Designer.cs">
+      <DependentUpon>frmTravel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmVoucherManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmVoucherManage.Designer.cs">
+      <DependentUpon>frmVoucherManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transaction\frmVoucherType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transaction\frmVoucherType.designer.cs">
+      <DependentUpon>frmVoucherType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transport Report\frmItinerary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transport Report\frmItinerary.Designer.cs">
+      <DependentUpon>frmItinerary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Controls\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\frmChangeVoucher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Controls\frmChangeVoucher.Designer.cs">
+      <DependentUpon>frmChangeVoucher.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\frmInstructionLoader.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User_Controls\frmInstructionLoader.Designer.cs">
+      <DependentUpon>frmInstructionLoader.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\ucFilterByCompany.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\ucFilterByCompany.Designer.cs">
+      <DependentUpon>ucFilterByCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\ucFilterByDate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\ucFilterByDate.Designer.cs">
+      <DependentUpon>ucFilterByDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\ucFilterByOther.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\ucFilterByOther.Designer.cs">
+      <DependentUpon>ucFilterByOther.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\ucHotelNavigation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\ucHotelNavigation.Designer.cs">
+      <DependentUpon>ucHotelNavigation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\ucNavComponents.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\ucNavComponents.designer.cs">
+      <DependentUpon>ucNavComponents.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\ucPayments.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\ucPayments.Designer.cs">
+      <DependentUpon>ucPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\ucPaymentsReport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\ucPaymentsReport.Designer.cs">
+      <DependentUpon>ucPaymentsReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\ucReportViewer.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\ucReportViewer.designer.cs">
+      <DependentUpon>ucReportViewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\ucSSNavigation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\ucSSNavigation.Designer.cs">
+      <DependentUpon>ucSSNavigation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\ucTransEmail.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\ucTransEmail.Designer.cs">
+      <DependentUpon>ucTransEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User_Controls\ucTransOther.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User_Controls\ucTransOther.Designer.cs">
+      <DependentUpon>ucTransOther.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coins-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mail-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mail-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coins-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\checkered-flag-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Briefcase.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Message.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chart Bar Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gears.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Compass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exclamation 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home221.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Power.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSets\ds_Tr_GroupAmend.xsc">
+      <DependentUpon>ds_Tr_GroupAmend.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_Tr_GroupAmend.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Tr_GroupAmend.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_Tr_GroupAmend.xss">
+      <DependentUpon>ds_Tr_GroupAmend.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\BACKHOTEL3.jpg" />
+    <None Include="Tourist Management_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login form 3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login form 4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login form 5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BAKNEW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\login.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSets\ds_acc_PaymentIssued.xsc">
+      <DependentUpon>ds_acc_PaymentIssued.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_PaymentIssued.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_PaymentIssued.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_PaymentIssued.xss">
+      <DependentUpon>ds_acc_PaymentIssued.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\no image avlble.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newest login form.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newest login form1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newest login form11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newest login form12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inbound logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSets\Accounts\ProfiLose.xsc">
+      <DependentUpon>ProfiLose.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\Accounts\ProfiLose.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProfiLose.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\Accounts\ProfiLose.xss">
+      <DependentUpon>ProfiLose.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_trn_Shopping.xsc">
+      <DependentUpon>ds_trn_Shopping.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_trn_Shopping.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_trn_Shopping.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_trn_Shopping.xss">
+      <DependentUpon>ds_trn_Shopping.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\Transport DS\ds_trn_Itinerary.xsc">
+      <DependentUpon>ds_trn_Itinerary.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\Transport DS\ds_trn_Itinerary.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_trn_Itinerary.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\Transport DS\ds_trn_Itinerary.xss">
+      <DependentUpon>ds_trn_Itinerary.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\no_photo_male.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSets\ds_rpt_ExpenseSheet.xsc">
+      <DependentUpon>ds_rpt_ExpenseSheet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_rpt_ExpenseSheet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_rpt_ExpenseSheet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_rpt_ExpenseSheet.xss">
+      <DependentUpon>ds_rpt_ExpenseSheet.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_trn_TRDetails.xsc">
+      <DependentUpon>ds_trn_TRDetails.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_trn_TRDetails.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_trn_TRDetails.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_trn_TRDetails.xss">
+      <DependentUpon>ds_trn_TRDetails.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\formbak1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hardware-Floppy-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hardware-Floppy-icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sum v2-16x16x32b.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apply.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_left_green_48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Knob Upload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001_24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSets\ds_TR_REPORT.xsc">
+      <DependentUpon>ds_TR_REPORT.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_TR_REPORT.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_TR_REPORT.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_TR_REPORT.xss">
+      <DependentUpon>ds_TR_REPORT.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\add_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\locking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSets\ds_acc_DailyDueHotel.xsc">
+      <DependentUpon>ds_acc_DailyDueHotel.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_DailyDueHotel.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_DailyDueHotel.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_DailyDueHotel.xss">
+      <DependentUpon>ds_acc_DailyDueHotel.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\payment-icon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSets\ds_rpt_HotelBanks.xsc">
+      <DependentUpon>ds_rpt_HotelBanks.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_rpt_HotelBanks.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_rpt_HotelBanks.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_rpt_HotelBanks.xss">
+      <DependentUpon>ds_rpt_HotelBanks.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\Untitled-11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001_17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSets\ds_acc_MonthlyDueHotel.xsc">
+      <DependentUpon>ds_acc_MonthlyDueHotel.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_MonthlyDueHotel.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_MonthlyDueHotel.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_MonthlyDueHotel.xss">
+      <DependentUpon>ds_acc_MonthlyDueHotel.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_MonthlyStatement.xsc">
+      <DependentUpon>ds_acc_MonthlyStatement.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_MonthlyStatement.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_MonthlyStatement.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_MonthlyStatement.xss">
+      <DependentUpon>ds_acc_MonthlyStatement.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_PNL.xsc">
+      <DependentUpon>ds_acc_PNL.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_PNL.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_PNL.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_PNL.xss">
+      <DependentUpon>ds_acc_PNL.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ProfiAndLoss.xsc">
+      <DependentUpon>ProfiAndLoss.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ProfiAndLoss.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProfiAndLoss.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ProfiAndLoss.xss">
+      <DependentUpon>ProfiAndLoss.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\001_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="DataSets\ds_acc_Debit_Credit.xsc">
+      <DependentUpon>ds_acc_Debit_Credit.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_Debit_Credit.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_Debit_Credit.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_Debit_Credit.xss">
+      <DependentUpon>ds_acc_Debit_Credit.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_DebtorAgent.xsc">
+      <DependentUpon>ds_acc_DebtorAgent.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_DebtorAgent.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_DebtorAgent.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_DebtorAgent.xss">
+      <DependentUpon>ds_acc_DebtorAgent.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_PNL_New.xsc">
+      <DependentUpon>ds_acc_PNL_New.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_PNL_New.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_PNL_New.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_PNL_New.xss">
+      <DependentUpon>ds_acc_PNL_New.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_SafariPayments.xsc">
+      <DependentUpon>ds_acc_SafariPayments.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_SafariPayments.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_SafariPayments.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_SafariPayments.xss">
+      <DependentUpon>ds_acc_SafariPayments.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_TrVoucherDetails.xsc">
+      <DependentUpon>ds_acc_TrVoucherDetails.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_TrVoucherDetails.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_TrVoucherDetails.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_TrVoucherDetails.xss">
+      <DependentUpon>ds_acc_TrVoucherDetails.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_UnsettledDrivers.xsc">
+      <DependentUpon>ds_acc_UnsettledDrivers.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_UnsettledDrivers.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_UnsettledDrivers.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_UnsettledDrivers.xss">
+      <DependentUpon>ds_acc_UnsettledDrivers.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_UnsettledGuides.xsc">
+      <DependentUpon>ds_acc_UnsettledGuides.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_UnsettledGuides.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_UnsettledGuides.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_UnsettledGuides.xss">
+      <DependentUpon>ds_acc_UnsettledGuides.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_UnsettledHotels.xsc">
+      <DependentUpon>ds_acc_UnsettledHotels.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_UnsettledHotels.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_UnsettledHotels.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_UnsettledHotels.xss">
+      <DependentUpon>ds_acc_UnsettledHotels.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_UnsettledInvoices.xsc">
+      <DependentUpon>ds_acc_UnsettledInvoices.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_UnsettledInvoices.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_UnsettledInvoices.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_UnsettledInvoices.xss">
+      <DependentUpon>ds_acc_UnsettledInvoices.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_trn_TourSummary.xsc">
+      <DependentUpon>ds_trn_TourSummary.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_trn_TourSummary.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_trn_TourSummary.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_trn_TourSummary.xss">
+      <DependentUpon>ds_trn_TourSummary.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_trn_TRDriverDetails.xsc">
+      <DependentUpon>ds_trn_TRDriverDetails.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_trn_TRDriverDetails.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_trn_TRDriverDetails.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_trn_TRDriverDetails.xss">
+      <DependentUpon>ds_trn_TRDriverDetails.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\error-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSets\dss_acc_GP.xsc">
+      <DependentUpon>dss_acc_GP.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\dss_acc_GP.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dss_acc_GP.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\dss_acc_GP.xss">
+      <DependentUpon>dss_acc_GP.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\config.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSets\ds_acc_DrvPay.xsc">
+      <DependentUpon>ds_acc_DrvPay.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_DrvPay.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_DrvPay.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_DrvPay.xss">
+      <DependentUpon>ds_acc_DrvPay.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_Supplementary.xsc">
+      <DependentUpon>ds_acc_Supplementary.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_Supplementary.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_Supplementary.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_Supplementary.xss">
+      <DependentUpon>ds_acc_Supplementary.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_DriverSettlement.xsc">
+      <DependentUpon>ds_DriverSettlement.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_DriverSettlement.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_DriverSettlement.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_DriverSettlement.xss">
+      <DependentUpon>ds_DriverSettlement.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_DriverSettlement1.xsc">
+      <DependentUpon>ds_DriverSettlement1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_DriverSettlement1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_DriverSettlement1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_DriverSettlement1.xss">
+      <DependentUpon>ds_DriverSettlement1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_Supplementary.xsc">
+      <DependentUpon>ds_Supplementary.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_Supplementary.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_Supplementary.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_Supplementary.xss">
+      <DependentUpon>ds_Supplementary.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_trn_Expenses.xsc">
+      <DependentUpon>ds_trn_Expenses.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_trn_Expenses.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_trn_Expenses.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_trn_Expenses.xss">
+      <DependentUpon>ds_trn_Expenses.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSets\ds_acc_IOU.xsc">
+      <DependentUpon>ds_acc_IOU.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_IOU.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_IOU1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataSets\ds_acc_IOU.xss">
+      <DependentUpon>ds_acc_IOU.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_rpt_Objectives.xsc">
+      <DependentUpon>ds_rpt_Objectives.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_rpt_Objectives.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_rpt_Objectives.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_rpt_Objectives.xss">
+      <DependentUpon>ds_rpt_Objectives.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\Transport DS\ds_trn_FuelMeter_Selected.xsc">
+      <DependentUpon>ds_trn_FuelMeter_Selected.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\Transport DS\ds_trn_FuelMeter_Selected.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_trn_FuelMeter_Selected.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\Transport DS\ds_trn_FuelMeter_Selected.xss">
+      <DependentUpon>ds_trn_FuelMeter_Selected.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\copy-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\filter2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wait.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wait2.GIF" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ajax-loader.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Processing.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSets\ds_acc_SetOff.xsc">
+      <DependentUpon>ds_acc_SetOff.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_SetOff.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_SetOff.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_SetOff.xss">
+      <DependentUpon>ds_acc_SetOff.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\icon-retrieve.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DataSets\acc_LedgerAccount.xsc">
+      <DependentUpon>acc_LedgerAccount.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\acc_LedgerAccount.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>acc_LedgerAccount.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\acc_LedgerAccount.xss">
+      <DependentUpon>acc_LedgerAccount.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\acc_LedgerAccount_Summary.xsc">
+      <DependentUpon>acc_LedgerAccount_Summary.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\acc_LedgerAccount_Summary.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>acc_LedgerAccount_Summary.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\acc_LedgerAccount_Summary.xss">
+      <DependentUpon>acc_LedgerAccount_Summary.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_MainCash.xsc">
+      <DependentUpon>ds_acc_MainCash.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_MainCash.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_MainCash.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_MainCash.xss">
+      <DependentUpon>ds_acc_MainCash.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_PAY.xsc">
+      <DependentUpon>ds_acc_PAY.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_acc_PAY.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_acc_PAY.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_acc_PAY.xss">
+      <DependentUpon>ds_acc_PAY.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_trn_TourSummary_New.xsc">
+      <DependentUpon>ds_trn_TourSummary_New.xsd</DependentUpon>
+    </None>
+    <None Include="DataSets\ds_trn_TourSummary_New.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ds_trn_TourSummary_New.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSets\ds_trn_TourSummary_New.xss">
+      <DependentUpon>ds_trn_TourSummary_New.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\continue-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxSHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="SHDocVw">
+      <Guid>{EAB22AC0-30C1-11CF-A7EB-0000C05BAE0B}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account Reports\rpt_View_Format.htm" />
+    <Content Include="WebController\dataGrid.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="WebController\reportSettings.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="WebController\tableDesign.htm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

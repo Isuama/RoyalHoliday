@@ -1,0 +1,759 @@
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\bin\Debug\WebController\dataGrid.css
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\bin\Debug\WebController\reportSettings.css
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\bin\Debug\WebController\tableDesign.htm
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\bin\Debug\Tourist Management.exe.manifest
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\bin\Debug\Tourist Management.application
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\bin\Debug\Tourist Management.exe
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\bin\Debug\Tourist Management.pdb
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\bin\Debug\StarRatingControl.dll
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\ResolveAssemblyReference.cache
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Account_Reports.frmDebtorAgents.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Account_Reports.frmRptPaymentIOU.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Account_Reports.frm_WebController.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsBIL.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentReceive2.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSupplementaryDBN.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSupplementaryCRN.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsDTN.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmCashBook.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmCashManage.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmChartOfAccount.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmDirectBooking.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmDriverSettlement.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmEncashMoney.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmGudieSettlement.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelAdvancePay.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelDailyPay.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelMonthlyPay.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelPayConfirm.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelSettlement.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmIOUSettlement.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmIouViewer.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmJournalEntry.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmLedgerAccount.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmLedgerEntry.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmManageCancelledHotels.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmOtherIncome.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPayments.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsCHQ.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsIOU.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsOIE.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsREC.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmProfitLose.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmReconcilation.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSafariSettlement.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSupplementary.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmTDL.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmTourInvoice.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmTrialBalance.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmUnsettled.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.DropDowns.DropSearch.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Email.frmAddressBook.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Email.frmCCEmails.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Email.frmEmail.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Email.frmFilterEmail.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Main.frmConnect.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Main.frmMDIMain.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Main.frmNewUser.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Main.frmUserGroups.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmAccountGroup.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmAccountLedger.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmAgent.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmAirport.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmBank.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmBankBranch.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmBasisTypes.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmCity.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmCityItinerary.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmCompany.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmCountry.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmCurrency.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmDriver.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmEmployee.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmGuide.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotel.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotelCondition.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotelOccupancy.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotelSeason.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmLanguages.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmMarket.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmMarketingDep.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmRoomTypes.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmSafariCompanies.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmShop.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmSightSeeing.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmSightSeeingCat.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmTRDetails.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicle.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleAccess.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleBrand.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleOwners.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleStatus.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleType.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmCustomizedReports.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmFilterRecords.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmFormatPrint.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmList.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmNavigator.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmSearch.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmSearchGrd.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmSetPrintArea.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Properties.Resources.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmMasterReports.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmCheckCancellation.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmFuelMeter.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmGeneralReports.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmObjectives.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmReportCategory.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmReportType.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmSetReportCategory.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmBackup.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmCancellation.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmChangePswd.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmBKRES.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmChangeTypes.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmFilterDrvGuide.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmLock.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmOtherSettings.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmReminder.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmTransReportSettings.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.TransacReports.frmReportViewer.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmBillingIns.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmChangeRooms.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmDefaultExpences.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmExpenses.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmGroupAmend.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmOtherIns.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmTourIDGenerator.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmVoucherType.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmItinerary.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.frmChangeVoucher.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucFilterByCompany.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucFilterByDate.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucFilterByOther.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucHotelNavigation.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucNavComponents.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucPayments.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucPaymentsReport.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucReportViewer.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucSSNavigation.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucTransEmail.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucTransOther.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.DropDowns.DropSelect.resources
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist Management.exe.licenses
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist Management.exe.manifest
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist Management.application
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist Management.exe
+C:\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist Management.pdb
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist Management.exe
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist Management.pdb
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\bin\Debug\WebController\dataGrid.css
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\bin\Debug\WebController\reportSettings.css
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\bin\Debug\WebController\tableDesign.htm
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\bin\Debug\Tourist Management.exe.manifest
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\bin\Debug\Tourist Management.application
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\bin\Debug\Tourist Management.exe
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\bin\Debug\Tourist Management.pdb
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\bin\Debug\StarRatingControl.dll
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\ResolveAssemblyReference.cache
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Account_Reports.frmDebtorAgents.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Account_Reports.frmRptPaymentIOU.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Account_Reports.frm_WebController.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsBIL.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentReceive2.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSupplementaryDBN.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSupplementaryCRN.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsDTN.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmCashBook.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmCashManage.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmChartOfAccount.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmDirectBooking.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmDriverSettlement.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmEncashMoney.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmGudieSettlement.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelAdvancePay.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelDailyPay.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelMonthlyPay.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelPayConfirm.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelSettlement.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmIOUSettlement.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmIouViewer.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmJournalEntry.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmLedgerAccount.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmLedgerEntry.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmManageCancelledHotels.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmOtherIncome.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPayments.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsCHQ.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsIOU.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsOIE.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsREC.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmProfitLose.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmReconcilation.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSafariSettlement.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSupplementary.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmTDL.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmTourInvoice.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmTrialBalance.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmUnsettled.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.DropDowns.DropSearch.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Email.frmAddressBook.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Email.frmCCEmails.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Email.frmEmail.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Email.frmFilterEmail.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Main.frmConnect.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Main.frmMDIMain.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Main.frmNewUser.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Main.frmUserGroups.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmAccountGroup.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmAccountLedger.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmAgent.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmAirport.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmBank.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmBankBranch.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmBasisTypes.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmCity.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmCityItinerary.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmCompany.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmCountry.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmCurrency.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmDriver.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmEmployee.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmGuide.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotel.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotelCondition.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotelOccupancy.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotelSeason.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmLanguages.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmMarket.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmMarketingDep.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmRoomTypes.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmSafariCompanies.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmShop.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmSightSeeing.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmSightSeeingCat.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmTRDetails.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicle.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleAccess.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleBrand.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleOwners.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleStatus.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleType.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmCustomizedReports.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmFilterRecords.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmFormatPrint.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmList.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmNavigator.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmSearch.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmSearchGrd.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmSetPrintArea.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Properties.Resources.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmMasterReports.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmCheckCancellation.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmFuelMeter.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmGeneralReports.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmObjectives.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmReportCategory.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmReportType.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmSetReportCategory.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmBackup.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmCancellation.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmChangePswd.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmBKRES.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmChangeTypes.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmFilterDrvGuide.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmLock.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmOtherSettings.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmReminder.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmTransReportSettings.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.TransacReports.frmReportViewer.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmBillingIns.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmChangeRooms.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmDefaultExpences.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmExpenses.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmGroupAmend.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmOtherIns.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmTourIDGenerator.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmVoucherType.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmItinerary.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.frmChangeVoucher.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucFilterByCompany.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucFilterByDate.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucFilterByOther.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucHotelNavigation.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucNavComponents.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucPayments.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucPaymentsReport.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucReportViewer.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucSSNavigation.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucTransEmail.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucTransOther.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.DropDowns.DropSelect.resources
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist Management.exe.licenses
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist Management.exe.manifest
+C:\Desktops\DT B\Royal Holidays System Backup 2014-08-10\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist Management.application
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\bin\Debug\WebController\dataGrid.css
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\bin\Debug\WebController\reportSettings.css
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\bin\Debug\WebController\tableDesign.htm
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\bin\Debug\Tourist Management.exe.config
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\bin\Debug\Tourist Management.exe.manifest
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\bin\Debug\Tourist Management.application
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\bin\Debug\Tourist Management.XML
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\bin\Debug\Tourist Management.exe
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\bin\Debug\Tourist Management.pdb
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\bin\Debug\office.dll
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\bin\Debug\Microsoft.Office.Interop.Outlook.xml
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\bin\Debug\office.xml
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Account_Reports.frmDebtorAgents.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Account_Reports.frmRptPaymentIOU.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Account_Reports.frm_WebController.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsBIL.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentReceive2.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSupplementaryDBN.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSupplementaryCRN.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsDTN.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmCashBook.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmCashManage.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmChartOfAccount.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmDirectBooking.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmDriverSettlement.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmEncashMoney.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmGudieSettlement.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelAdvancePay.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelDailyPay.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelMonthlyPay.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelPayConfirm.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelSettlement.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmIOUSettlement.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmIouViewer.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmJournalEntry.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmLedgerAccount.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmLedgerEntry.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmManageCancelledHotels.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmOtherIncome.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPayments.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsCHQ.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsIOU.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsOIE.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsREC.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmProfitLose.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmReconcilation.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSafariSettlement.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSupplementary.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmTDL.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmTourInvoice.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmTrialBalance.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmUnsettled.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.DropDowns.DropSearch.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Email.frmAddressBook.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Email.frmCCEmails.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Email.frmEmail.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Email.frmFilterEmail.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Main.frmConnect.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Main.frmMDIMain.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Main.frmNewUser.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Main.frmUserGroups.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmAccountGroup.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmAccountLedger.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmAgent.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmAirport.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmBank.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmBankBranch.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmBasisTypes.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmCity.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmCityItinerary.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmCompany.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmCountry.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmCurrency.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmDriver.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmEmployee.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmGuide.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotel.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotelCondition.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotelOccupancy.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotelSeason.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmLanguages.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmMarket.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmMarketingDep.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmRoomTypes.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmSafariCompanies.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmShop.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmSightSeeing.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmSightSeeingCat.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmTRDetails.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicle.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleAccess.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleBrand.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleOwners.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleStatus.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleType.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmCustomizedReports.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmFilterRecords.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmFormatPrint.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmList.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmNavigator.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmSearch.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmSearchGrd.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Other.frmSetPrintArea.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Properties.Resources.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmMasterReports.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmCheckCancellation.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmFuelMeter.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmGeneralReports.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmObjectives.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmReportCategory.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmReportType.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Reports.frmSetReportCategory.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmBackup.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmCancellation.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmChangePswd.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmBKRES.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmChangeTypes.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmFilterDrvGuide.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmLock.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmOtherSettings.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmReminder.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Settings.frmTransReportSettings.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.TransacReports.frmReportViewer.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmBillingIns.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmChangeRooms.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmDefaultExpences.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmExpenses.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmGroupAmend.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmOtherIns.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmTourIDGenerator.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmVoucherType.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmItinerary.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.frmChangeVoucher.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucFilterByCompany.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucFilterByDate.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucFilterByOther.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucHotelNavigation.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucNavComponents.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucPayments.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucPaymentsReport.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucReportViewer.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucSSNavigation.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucTransEmail.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucTransOther.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist_Management.DropDowns.DropSelect.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\ResGen.read.1.tlog
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\ResGen.write.1.tlog
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist Management.exe.licenses
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist Management.exe.manifest
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist Management.application
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist Management.exe
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Tourist Management\obj\Debug\Tourist Management.pdb
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\bin\Debug\Tourist Management.exe.config
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\bin\Debug\Tourist Management.XML
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist Management.exe
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist Management.pdb
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\bin\Debug\WebController\dataGrid.css
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\bin\Debug\WebController\reportSettings.css
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\bin\Debug\WebController\tableDesign.htm
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\bin\Debug\Tourist Management.exe.manifest
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\bin\Debug\Tourist Management.application
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\bin\Debug\Tourist Management.exe
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\bin\Debug\Tourist Management.pdb
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\bin\Debug\Microsoft.Office.Interop.Excel.dll
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\bin\Debug\office.dll
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\bin\Debug\Microsoft.Office.Interop.Excel.xml
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\bin\Debug\Microsoft.Office.Interop.Outlook.xml
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\bin\Debug\office.xml
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Account_Reports.frmDebtorAgents.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Account_Reports.frmRptPaymentIOU.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Account_Reports.frm_WebController.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsBIL.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentReceive2.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSupplementaryDBN.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSupplementaryCRN.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsDTN.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmCashBook.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmCashManage.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmChartOfAccount.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmDirectBooking.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmDriverSettlement.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmEncashMoney.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmGudieSettlement.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelAdvancePay.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelDailyPay.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelMonthlyPay.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelPayConfirm.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelSettlement.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmIOUSettlement.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmIouViewer.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmJournalEntry.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmLedgerAccount.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmLedgerEntry.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmManageCancelledHotels.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmOtherIncome.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPayments.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsCHQ.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsIOU.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsOIE.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsREC.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmProfitLose.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmReconcilation.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSafariSettlement.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSupplementary.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmTDL.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmTourInvoice.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmTrialBalance.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmUnsettled.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.DropDowns.DropSearch.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Email.frmAddressBook.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Email.frmCCEmails.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Email.frmEmail.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Email.frmFilterEmail.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Main.frmConnect.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Main.frmMDIMain.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Main.frmNewUser.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Main.frmUserGroups.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmAccountGroup.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmAccountLedger.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmAgent.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmAirport.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmBank.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmBankBranch.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmBasisTypes.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmCity.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmCityItinerary.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmCompany.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmCountry.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmCurrency.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmDriver.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmEmployee.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmGuide.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotel.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotelCondition.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotelOccupancy.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotelSeason.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmLanguages.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmMarket.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmMarketingDep.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmRoomTypes.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmSafariCompanies.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmShop.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmSightSeeing.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmSightSeeingCat.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmTRDetails.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicle.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleAccess.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleBrand.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleOwners.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleStatus.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleType.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Other.frmCustomizedReports.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Other.frmFilterRecords.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Other.frmFormatPrint.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Other.frmList.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Other.frmNavigator.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Other.frmSearch.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Other.frmSearchGrd.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Other.frmSetPrintArea.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Properties.Resources.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Reports.frmMasterReports.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Reports.frmCheckCancellation.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Reports.frmFuelMeter.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Reports.frmGeneralReports.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Reports.frmObjectives.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Reports.frmReportCategory.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Reports.frmReportType.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Reports.frmSetReportCategory.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmBackup.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmCancellation.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmChangePswd.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmBKRES.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmChangeTypes.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmFilterDrvGuide.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmLock.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmOtherSettings.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmReminder.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmTransReportSettings.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.TransacReports.frmReportViewer.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmBillingIns.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmChangeRooms.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmDefaultExpences.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmExpenses.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmGroupAmend.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmOtherIns.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmTourIDGenerator.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmVoucherType.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmItinerary.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.frmChangeVoucher.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucFilterByCompany.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucFilterByDate.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucFilterByOther.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucHotelNavigation.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucNavComponents.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucPayments.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucPaymentsReport.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucReportViewer.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucSSNavigation.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucTransEmail.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucTransOther.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist_Management.DropDowns.DropSelect.resources
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\ResGen.read.1.tlog
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\ResGen.write.1.tlog
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist Management.exe.licenses
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist Management.exe.manifest
+C:\Users\Lithium-05\Documents\Visual Studio 2010\Projects\Royal Holidays-NEW\Backup 2016-04-25\RH System\Tourist Management\obj\Debug\Tourist Management.application
+C:\RH System\Tourist Management\bin\Debug\Tourist Management.exe.config
+C:\RH System\Tourist Management\bin\Debug\Tourist Management.XML
+C:\RH System\Tourist Management\obj\Debug\Tourist Management.exe
+C:\RH System\Tourist Management\obj\Debug\Tourist Management.pdb
+C:\RH System\Tourist Management\bin\Debug\WebController\dataGrid.css
+C:\RH System\Tourist Management\bin\Debug\WebController\reportSettings.css
+C:\RH System\Tourist Management\bin\Debug\WebController\tableDesign.htm
+C:\RH System\Tourist Management\bin\Debug\Tourist Management.exe.manifest
+C:\RH System\Tourist Management\bin\Debug\Tourist Management.application
+C:\RH System\Tourist Management\bin\Debug\Tourist Management.exe
+C:\RH System\Tourist Management\bin\Debug\Tourist Management.pdb
+C:\RH System\Tourist Management\obj\Debug\Tourist Management.csprojResolveAssemblyReference.cache
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Account_Reports.frmDebtorAgents.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Account_Reports.frmRptPaymentIOU.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Account_Reports.frm_WebController.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsBIL.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentReceive2.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSupplementaryDBN.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSupplementaryCRN.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsDTN.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmCashBook.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmCashManage.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmChartOfAccount.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmDirectBooking.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmDriverSettlement.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmEncashMoney.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmGudieSettlement.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelAdvancePay.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelDailyPay.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelMonthlyPay.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelPayConfirm.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmHotelSettlement.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmIOUSettlement.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmIouViewer.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmJournalEntry.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmLedgerAccount.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmLedgerEntry.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmManageCancelledHotels.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmOtherIncome.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPayments.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsCHQ.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsIOU.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsOIE.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmPaymentsREC.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmProfitLose.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmReconcilation.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSafariSettlement.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmSupplementary.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmTDL.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmTourInvoice.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmTrialBalance.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Accounts.frmUnsettled.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.DropDowns.DropSearch.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Email.frmAddressBook.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Email.frmCCEmails.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Email.frmEmail.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Email.frmFilterEmail.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Main.frmConnect.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Main.frmMDIMain.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Main.frmNewUser.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Main.frmUserGroups.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmAccountGroup.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmAccountLedger.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmAgent.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmAirport.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmBank.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmBankBranch.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmBasisTypes.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmCity.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmCityItinerary.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmCompany.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmCountry.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmCurrency.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmDriver.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmEmployee.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmGuide.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotel.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotelCondition.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotelOccupancy.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmHotelSeason.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmLanguages.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmMarket.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmMarketingDep.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmRoomTypes.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmSafariCompanies.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmShop.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmSightSeeing.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmSightSeeingCat.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmTRDetails.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicle.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleAccess.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleBrand.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleOwners.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleStatus.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Master.frmVehicleType.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Other.frmCustomizedReports.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Other.frmFilterRecords.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Other.frmFormatPrint.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Other.frmList.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Other.frmNavigator.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Other.frmSearch.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Other.frmSearchGrd.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Other.frmSetPrintArea.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Properties.Resources.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Reports.frmMasterReports.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Reports.frmCheckCancellation.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Reports.frmFuelMeter.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Reports.frmGeneralReports.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Reports.frmObjectives.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Reports.frmReportCategory.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Reports.frmReportType.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Reports.frmSetReportCategory.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmBackup.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmCancellation.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmChangePswd.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmBKRES.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmChangeTypes.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmFilterDrvGuide.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmLock.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmOtherSettings.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmReminder.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Settings.frmTransReportSettings.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.TransacReports.frmReportViewer.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmBillingIns.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmChangeRooms.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmDefaultExpences.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmExpenses.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmGroupAmend.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmOtherIns.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmTourIDGenerator.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmVoucherType.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.Transaction.frmItinerary.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.frmChangeVoucher.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucFilterByCompany.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucFilterByDate.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucFilterByOther.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucHotelNavigation.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucNavComponents.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucPayments.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucPaymentsReport.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucReportViewer.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucSSNavigation.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucTransEmail.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.User_Controls.ucTransOther.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist_Management.DropDowns.DropSelect.resources
+C:\RH System\Tourist Management\obj\Debug\Tourist Management.csproj.GenerateResource.Cache
+C:\RH System\Tourist Management\obj\Debug\Tourist Management.exe.licenses
+C:\RH System\Tourist Management\obj\Debug\Tourist Management.exe.manifest
+C:\RH System\Tourist Management\obj\Debug\Tourist Management.application

@@ -1,0 +1,529 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Tourist Management</name>
+    </assembly>
+    <members>
+        <member name="T:Tourist_Management.DataSets.ds_rpt_HotelBanks">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_rpt_HotelBanks.DTBankDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_rpt_HotelBanks.DTBankRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_rpt_HotelBanks.DTBankRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.acc_LedgerAccount_Summary">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.acc_LedgerAccount_Summary.dtLedgerSumDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.acc_LedgerAccount_Summary.dtMonthDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.acc_LedgerAccount_Summary.dtLedgerSumRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.acc_LedgerAccount_Summary.dtMonthRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.acc_LedgerAccount_Summary.dtLedgerSumRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.acc_LedgerAccount_Summary.dtMonthRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_rpt_Objectives">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_rpt_Objectives.dt_ComparisonDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_rpt_Objectives.dt_ComparisonRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_rpt_Objectives.dt_ComparisonRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.acc_LedgerAccount">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.acc_LedgerAccount.dtLedgerAccDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.acc_LedgerAccount.dtLedgerAccRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.acc_LedgerAccount.dtLedgerAccRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_trn_TourSummary_New">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_trn_TourSummary_New.dtBasicsDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_trn_TourSummary_New.dtDriverDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_trn_TourSummary_New.dtGuideDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_trn_TourSummary_New.dtBasicsRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_trn_TourSummary_New.dtDriverRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_trn_TourSummary_New.dtGuideRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_trn_TourSummary_New.dtBasicsRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_trn_TourSummary_New.dtDriverRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_trn_TourSummary_New.dtGuideRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_TrVoucherDetails">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_TrVoucherDetails.TRVoucherDetailsDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_TrVoucherDetails.TRVoucherDetailsRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_TrVoucherDetails.TRVoucherDetailsRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.dss_acc_GP">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.dss_acc_GP.dt_GPDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.dss_acc_GP.dt_GPRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.dss_acc_GP.dt_GPRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_UnsettledGuides">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_UnsettledGuides.dtUnsettledGuidesDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_UnsettledGuides.dtUnsettledGuidesRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_UnsettledGuides.dtUnsettledGuidesRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_SafariPayments">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_SafariPayments.dtSafariPaymentsDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_SafariPayments.dtSafariPaymentsRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_SafariPayments.dtSafariPaymentsRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_UnsettledInvoices">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_UnsettledInvoices.DTUnsetInvDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_UnsettledInvoices.DTUnsetInvRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_UnsettledInvoices.DTUnsetInvRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_DailyDueHotel">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_DailyDueHotel.DTDuePayDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_DailyDueHotel.DTDuePayRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_DailyDueHotel.DTDuePayRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_PAY">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_PAY.dtPAYDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_PAY.dtPAYRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_PAY.dtPAYRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_MonthlyDueHotel">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_MonthlyDueHotel.DTDuePayDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_MonthlyDueHotel.DTDuePayRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_MonthlyDueHotel.DTDuePayRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_DriverSettlement1">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_DriverSettlement1.dtTransportationDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_DriverSettlement1.dtTransportationRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_DriverSettlement1.dtTransportationRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_MonthlyStatement">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_MonthlyStatement.DTStatementDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_MonthlyStatement.DTStatementRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_MonthlyStatement.DTStatementRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_MainCash">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_MainCash.dtMainCashDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_MainCash.dtMainCashRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_MainCash.dtMainCashRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.Transport_DS.ds_trn_Itinerary">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.Transport_DS.ds_trn_Itinerary.dtItineraryDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.Transport_DS.ds_trn_Itinerary.dtItineraryRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.Transport_DS.ds_trn_Itinerary.dtItineraryRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.Transport_DS.ds_trn_FuelMeter_Selected">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.Transport_DS.ds_trn_FuelMeter_Selected.dtFuelMeterDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.Transport_DS.ds_trn_FuelMeter_Selected.dtFuelMeterRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.Transport_DS.ds_trn_FuelMeter_Selected.dtFuelMeterRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_newDebtor">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_newDebtor.DebterAgentDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_newDebtor.DebterAgentRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_newDebtor.DebterAgentRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_UnsettledDrivers">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_UnsettledDrivers.dtUnsettledDriversDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_UnsettledDrivers.dtUnsettledDriversRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_UnsettledDrivers.dtUnsettledDriversRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_IOU">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_IOU.DTIOUDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_IOU.DTIOURow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_IOU.DTIOURowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Tourist_Management.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Tourist_Management.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_trn_TRDriverDetails">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_trn_TRDriverDetails.TRDriverDetailsDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_trn_TRDriverDetails.TRDriverDetailsRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_trn_TRDriverDetails.TRDriverDetailsRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_UnsettledHotels">
+             <summary>
+            Represents a strongly typed in-memory cache of data.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_UnsettledHotels.dtUnsettledHotelsDataTable">
+             <summary>
+            Represents the strongly named DataTable class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_UnsettledHotels.dtUnsettledHotelsRow">
+             <summary>
+            Represents strongly named DataRow class.
+            </summary>
+        </member>
+        <member name="T:Tourist_Management.DataSets.ds_acc_UnsettledHotels.dtUnsettledHotelsRowChangeEvent">
+             <summary>
+            Row event argument class
+            </summary>
+        </member>
+    </members>
+</doc>
